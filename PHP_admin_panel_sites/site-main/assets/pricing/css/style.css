@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a:hover{
+    text-decoration: none;
+}
+
+
+.all-us-title-wapper{
+    max-width: 787px;
+    width: 100%;
+    margin: 0 auto;
+}
+.all-us-title-wapper h5{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #FF7EB3;
+    padding-bottom: 22px;
+    margin: 0;
+}
+.all-us-title-wapper h4{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+    text-align: center;
+    color: #010101;
+    margin: 0;
+    padding-bottom: 32px;
+}
+.all-us-title-wapper p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 170%;
+    text-align: center;
+    color: #6F6D71;
+    margin: 0;
+    padding: 0;
+}
+
+.pricing-bg-shap{
+    background: url(../img/8.\ Pricing\ \(1\).png) no-repeat;
+    background-size: cover;
+}
+
+/* pricing page section satrt */
+
+    .pricing-p-section{
+        padding: 200px 0 300px 0;
+    }
+
+    .pricing-p-section .pricing-p-inner-wapper{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+    }
+
+    .pricing-p-inner-item{
+        display: flex;
+        gap: 60px;
+    }
+    .pricing-p-inner-item .pricing-p-inner-item-left{
+        width: 37%;
+    }
+    .pricing-p-inner-item .pricing-p-inner-item-left .pricing-p-inner-item-left-card{
+        padding: 60px 68px;
+        background: #FEFEFE;
+        box-shadow: 0px 19px 33px rgba(111, 109, 113, 0.07);
+        border-radius: 20px;
+    }
+    .pricing-p-inner-item .pricing-p-inner-item-left .pricing-p-inner-item-left-card .pricing-p-plan-name h4{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+        color: #010101;
+        margin: 0;
+        padding-bottom: 15px;
+    }
+    .pricing-p-inner-item .pricing-p-inner-item-left .pricing-p-inner-item-left-card .pricing-p-plan-name h5{
+        padding: 11px 26px;
+        background: #FFEDEB;
+        border-radius: 62px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #F16E88;
+        width: fit-content;
+        margin: 0 auto;
+    }
+    .pricing-p-inner-item .pricing-p-inner-item-left .pricing-p-inner-item-left-card .pricing-p-plan-price{
+        padding: 61px 0 45px 0;
+    }
+    .pricing-p-inner-item .pricing-p-inner-item-left .pricing-p-inner-item-left-card .pricing-p-plan-price h2{
+        display: flex;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 72px;
+        line-height: 72px;
+        text-align: center;
+        color: #010101;
+        justify-content: center;
+        margin: 0;
+    }
+    .pricing-p-inner-item .pricing-p-inner-item-left .pricing-p-inner-item-left-card .pricing-p-plan-price h2 span{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+        color: #010101;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    .pricing-p-inner-item .pricing-p-inner-item-left .pricing-p-inner-item-left-card .pricing-p-plan-price h6{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 130.5%;
+        text-align: center;
+        color: #010101;
+        margin: 0;
+        padding-top: 10px;
+    }
+    .pricing-p-inner-item .pricing-p-inner-item-left .pricing-p-inner-item-left-card .lorem-btn{
+        display: flex;
+    }
+    .pricing-p-inner-item .pricing-p-inner-item-left .pricing-p-inner-item-left-card .lorem-btn a{
+        padding: 18px 83px;
+        background: linear-gradient(286.38deg, #FF7EB3 5.19%, #FF758C 93.37%);
+        border-radius: 15px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 180%;
+        color: #FEFEFE;
+    }
+    .pricing-p-inner-item .pricing-p-inner-item-right{
+        width: 57%;
+    }
+    .pricing-p-inner-item-right .price-right-ul{
+        padding: 40px 49px;
+        background: #FEFEFE;
+        border-radius: 30px;
+    }
+    .pricing-p-inner-item-right .price-right-ul ul{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .pricing-p-inner-item-right .price-right-ul ul li{
+        padding-bottom: 15px;
+        padding-right: 10px;
+        border-bottom: 3px solid #EBE9ED80;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .pricing-p-inner-item-right .price-right-ul ul li p{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 170%;
+        color: #010101;
+        margin: 0;
+        padding: 0;
+    }
+    .pricing-p-inner-item-right .price-right-ul ul li span{
+        font-size: 26px;
+        color: #F16E88;
+    }
+    .pricing-p-inner-item-right .price-right-ul ul li.text-check p{
+        color: #6F6D71;
+    }
+    .pricing-p-inner-item-right .price-right-ul ul li.min span{
+        opacity: 0.5;
+    }
+    .pricing-p-inner-item-right .price-right-ul ul li.check-col span{
+        color: #B1D7B8;
+        font-size: 18px;
+    }
+/* pricing page section end */
+
+
+/* Partner section start */
+
+    .partner-section{
+        margin-bottom: -140px;
+        position: relative;
+    }
+    .partner-wapper{
+        background: #FEFEFE;
+        box-shadow: 0px 19px 33px rgba(111, 109, 113, 0.13);
+        border-radius: 20px;
+        padding: 50px 40px;
+    }
+    .partner-wapper .partner-inner{
+        display: flex;
+        align-items: center;
+    }
+    .partner-wapper .partner-inner img{
+        width: 100%;
+    }
+
+/* Partner section end */
+
+@media(max-width:1450px){
+
+}
+@media(max-width:1199px) {
+   /* pricing page section satrt */
+
+   .pricing-p-section {
+    padding: 100px 0 200px 0;
+}
+
+   /* pricing page section end */
+    
+
+}
+
+@media(max-width:991px) {
+    
+   /* pricing page section satrt */
+
+   .pricing-p-section .pricing-p-inner-wapper {
+    margin-top: 50px;
+    gap: 30px;
+}
+.pricing-p-inner-item {
+    gap: 30px;
+}
+.pricing-p-inner-item .pricing-p-inner-item-left .pricing-p-inner-item-left-card {
+    padding: 30px 30px;
+}
+.pricing-p-inner-item .pricing-p-inner-item-left .pricing-p-inner-item-left-card .lorem-btn a {
+    padding: 11px 66px;
+    font-size: 22px;
+}
+.pricing-p-inner-item-right .price-right-ul {
+    padding: 20px 30px;
+}
+.pricing-p-inner-item-right .price-right-ul ul {
+    gap: 20px;
+}
+   /* pricing page section end */
+
+    /* Partner section start */
+    .partner-wapper {
+        padding: 40px 20px;
+    }
+    .partner-wapper .partner-inner {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .partner-wapper .partner-inner .partner-card {
+        max-width: 162px;
+    }
+
+    /* Partner section end */
+}
+
+
+@media(max-width:767px) {
+    .all-us-title-wapper h5 {
+        font-size: 26px;
+        line-height: 32px;
+        padding-bottom: 15px;
+    }
+    .all-us-title-wapper h4 {
+        font-size: 34px;
+        line-height: 130%;
+        padding-bottom: 20px;
+    }
+    .all-us-title-wapper p {
+        font-size: 20px;
+        line-height: 150%;
+    }
+    
+    /* pricing page section satrt */
+    .pricing-p-section {
+        padding: 50px 0 0 0;
+    }
+   .pricing-p-section .pricing-p-inner-wapper {
+    margin-top: 30px;
+    gap: 20px;
+    }
+    .pricing-p-inner-item {
+        gap: 20px;
+        flex-direction: column;
+    }
+    .pricing-p-inner-item .pricing-p-inner-item-left {
+        width: 100%;
+    }
+    .pricing-p-inner-item .pricing-p-inner-item-right {
+        width: 100%;
+    }
+    .pricing-p-inner-item .pricing-p-inner-item-left .pricing-p-inner-item-left-card .lorem-btn a {
+        padding: 6px 50px;
+        font-size: 18px;
+        margin: 0 auto;
+    }
+    .pricing-p-inner-item .pricing-p-inner-item-left .pricing-p-inner-item-left-card .pricing-p-plan-price {
+        padding: 30px 0 30px 0;
+    }
+
+    /* pricing page section end */
+
+
+    /* Partner section start */
+
+    .partner-section {
+        margin-bottom: 0px;
+        padding: 50px 0;
+    }
+    .partner-wapper {
+        padding: 20px 20px;
+    }
+    .partner-wapper .partner-inner {
+        display: grid;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Partner section end */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+	.container.w-1557 { max-width: 1180px; }
+    .container.w-1000 { max-width: 1000px; }
+}
+@media (min-width: 1340px) {
+	.container.w-1557 { max-width: 1300px; }
+}
+@media (min-width: 1440px) {
+	.container.w-1557 { max-width: 1400px; }
+}
+@media (min-width: 1540px) {
+	.container.w-1557 { max-width: 1500px; }
+}
+@media (min-width: 1640px) {
+	.container.w-1557 { max-width: 1557px; }
+}
+@media (min-width: 1740px) {
+	.container.w-1557 { max-width: 1730px; }
+}

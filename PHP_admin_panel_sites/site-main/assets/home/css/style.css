@@ -1,0 +1,934 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a:hover{
+    text-decoration: none;
+}
+
+/* banner section start */
+
+.banner-section{
+    padding: 317px 0;
+    background: linear-gradient(288.64deg, rgba(255, 237, 235, 0.8) 32.81%, rgba(255, 245, 235, 0.8) 100%), linear-gradient(270deg, #FFD1C9 0%, rgba(255, 225, 190, 0.15) 72.79%), url(../img/banner.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.banner-section::after{
+    content: '';
+    width: 100%;
+    height: 220px;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    background: url(../img/Rectangle\ 75\ \(1\).png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-section .banner-text-wapper{
+    max-width: 545px;
+    width: 100%;
+    margin: 0 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.banner-section .banner-text-wapper h2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 110px;
+    color: #010101;
+    margin: 0;
+}
+.banner-section .banner-text-wapper p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 170%;
+    color: #6F6D71;
+    margin: 0;
+}
+.banner-section .banner-text-wapper .banber-lorem-btn{
+    display: flex;
+}
+.banner-section .banner-text-wapper .banber-lorem-btn a{
+    padding: 20px 100px;
+    border-radius: 15px;
+    border: 3px solid #F16E88;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 180%;
+    text-align: center;
+    color: #F16E88;
+}
+
+/* Miles Esther section start */
+
+.miles-esther-section{
+    margin-top: -150px;
+}
+.miles-card-wapper{
+    box-shadow: 0px 19px 33px rgba(111, 109, 113, 0.13);
+    border-radius: 20px;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.miles-card-wapper.bg-color-FFF5EB{
+    background: #FFF5EB;
+}
+.miles-card-wapper.bg-color-FFEDEB{
+    background: #FFEDEB;
+}
+.miles-card-wapper.bg-color-F2F8F3{
+    background: #F2F8F3;
+}
+.miles-card-wapper .miles-card-img{
+    padding: 17px 20px;   
+    border-radius: 15px;
+    width: 84px;
+    height: 84px;
+}
+.miles-card-wapper.bg-color-FFF5EB .miles-card-img{
+    background: #F5CA6E;
+}
+.miles-card-wapper.bg-color-FFEDEB .miles-card-img{
+    background: #F16E88;
+}
+.miles-card-wapper.bg-color-F2F8F3 .miles-card-img{
+    background: #B1D7B8;
+}
+.miles-card-wapper .miles-card-inner h6{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #010101;
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+.miles-card-wapper .miles-card-inner p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 170%;
+    color: #6F6D71;
+    margin: 0;
+}
+/* Miles Esther section end */
+/* banner section end */
+
+
+/* about us sectin satrt */
+
+.about-us-section{
+    padding: 200px 0;
+}
+.all-us-title-wapper{
+    max-width: 787px;
+    width: 100%;
+    margin: 0 auto;
+}
+.all-us-title-wapper h5{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #FF7EB3;
+    padding-bottom: 22px;
+    margin: 0;
+}
+.all-us-title-wapper h4{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+    text-align: center;
+    color: #010101;
+    margin: 0;
+    padding-bottom: 32px;
+}
+.all-us-title-wapper p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 170%;
+    text-align: center;
+    color: #6F6D71;
+    margin: 0;
+    padding: 0;
+}
+.about-us-section .about-row{
+    margin-top: 100px;
+    display: flex;
+    gap: 73px;
+}
+.about-us-section .about-row .about-left-img img{
+    width: 100%;
+}
+.about-us-section .about-row .about-right-text{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.about-us-section .about-row .about-right-text .about-right-text-card{
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+.about-us-section .about-row .about-right-text .about-right-text-card .about-right-text-card-img{
+    width: 50px;
+    height: 50px;
+}
+.about-us-section .about-row .about-right-text .about-right-text-card .about-right-text-card-img img{
+    width: 100%;
+}
+.about-us-section .about-row .about-right-text .about-right-text-card .about-right-text-card-inner{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.about-us-section .about-row .about-right-text .about-right-text-card .about-right-text-card-inner h5{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #010101;
+    margin: 0;
+    padding: 0;
+}
+.about-us-section .about-row .about-right-text .about-right-text-card .about-right-text-card-inner p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 170%;
+    color: #6F6D71;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* about us sectin end */
+
+
+/* Price section satrt */
+
+.price-section{
+    padding: 90px 0 155px 0;
+    background: url(../img/Desktop\ -\ 2.png) no-repeat;
+    background-size: cover;
+}
+.price-section .price-row{
+    display: flex;
+    gap: 30px;
+    margin-top: 100px;
+}
+.price-section .price-row .price-left-wapper, .price-section .price-row .price-right-wapper{
+    width: 50%;
+}
+.price-section .price-row .price-left-wapper .radio-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.price-section .price-row .price-left-wapper .radio-buttons label.custom-radio{
+    padding: 30px 30px;
+    background: #FEFEFE;
+    box-shadow: 0px 19px 33px rgba(111, 109, 113, 0.07);
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 0;
+    width: 100%;
+}
+.price-section .price-row .price-left-wapper .radio-buttons label.custom-radio input{
+    display: none;
+}
+.price-section .price-row .price-left-wapper .radio-buttons label.custom-radio span.radio-btn {
+	display: flex;
+	align-items: center;
+}
+.price-section .price-row .price-left-wapper .radio-buttons label.custom-radio span.radio-btn .check-and-checked-btn{
+    margin-right: 50px;
+}
+.price-section .price-row .price-left-wapper .radio-buttons label.custom-radio span.radio-btn .plan-price-wapper{
+    margin: auto 0 auto auto;
+}
+.price-section .price-row .price-left-wapper .radio-buttons label.custom-radio span.radio-btn .check-and-checked-btn{
+    color: #FF7EB3;
+    font-size: 35px;
+}
+.price-section .price-row .price-left-wapper .radio-buttons .tabs-nav-main-inner label.custom-radio span.radio-btn .check-and-checked-btn .check-btn{
+    display: block;
+}
+.price-section .price-row .price-left-wapper .radio-buttons .tabs-nav-main-inner.active label.custom-radio span.radio-btn .check-and-checked-btn .check-btn{
+    display: none;
+}
+.price-section .price-row .price-left-wapper .radio-buttons .tabs-nav-main-inner label.custom-radio span.radio-btn .check-and-checked-btn .checked-btn{
+    display: none;
+}
+.price-section .price-row .price-left-wapper .radio-buttons .tabs-nav-main-inner.active label.custom-radio span.radio-btn .check-and-checked-btn .checked-btn{
+    display: block;
+}
+.price-section .price-row .price-left-wapper .radio-buttons label.custom-radio span.radio-btn .plan-name-wapper h5{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #010101;
+    margin: 0;
+    padding-bottom: 12px;
+}
+.price-section .price-row .price-left-wapper .radio-buttons label.custom-radio span.radio-btn .plan-name-wapper span{
+    background: #FFEDEB;
+    border-radius: 62px;
+    padding: 11px 26px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #F16E88;
+    display: inline-block;
+}
+.price-section .price-row .price-left-wapper .radio-buttons label.custom-radio span.radio-btn .plan-price{
+    display: flex;
+}
+.price-section .price-row .price-left-wapper .radio-buttons label.custom-radio span.radio-btn .plan-price span.dolor-s{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 75px;
+    color: #010101;
+    margin-right: 5px;
+}
+.price-section .price-row .price-left-wapper .radio-buttons label.custom-radio span.radio-btn .plan-price h4{
+    margin: 0;
+    display: inline-block;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 110px;
+    color: #010101;
+    padding: 0;
+}
+.price-section .price-row .price-left-wapper .radio-buttons label.custom-radio span.radio-btn .plan-price h4 span{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.price-right-wapper .price-right-ul{
+    padding: 40px 49px;
+    background: #FEFEFE;
+    border-radius: 30px;
+}
+.price-right-wapper .price-right-ul ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    list-style: none;
+}
+.price-right-wapper .price-right-ul ul li{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 3px solid rgba(235, 233, 237, 0.5);
+    padding-right: 10px;
+}
+.price-right-wapper .price-right-ul ul li p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 170%;
+    color: #010101;
+    margin: 0;
+    padding: 0;
+}
+.price-right-wapper .price-right-ul ul li.text-check p{
+    color: #6F6D71;
+}
+.price-right-wapper .price-right-ul ul li span{
+    color: #F16E88;
+    font-size: 30px;
+}
+.price-right-wapper .price-right-ul ul li.min span{
+    color: #F16E88;
+    opacity: 0.6;
+}
+.price-right-wapper .choose-plan-btn{
+    margin-top: 100px;
+    display: flex;
+}
+.price-right-wapper .choose-plan-btn a{
+    padding: 18px 50px;
+    background: linear-gradient(286.38deg, #FF7EB3 5.19%, #FF758C 93.37%);
+    border-radius: 15px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 180%;
+    color: #FEFEFE;
+    margin: 0 auto;
+}
+
+
+.price-section .price-row .price-left-wapper .radio-buttons ul{
+    display: flex;
+  flex-direction: column;
+  gap: 18px;
+    width: 100%;
+    list-style: none;
+}
+
+.price-content{
+    display: none;
+}
+.price-content.active{
+    display: block;
+}
+.box{
+    padding: 50px 200px 0 200px;
+}
+
+
+/* Price section end */
+
+    /* Testimony section satrt */
+
+    .testimonial-section{
+        padding: 200px 0;
+    }
+    .testimonial-slider{
+        margin-top: 80px;
+    }
+    .testimonial-slider .testimonial-slider-card {
+        background: #FFFFFF;
+        box-shadow: 0px 7px 3px rgba(111, 109, 113, 0.13);
+        border-radius: 20px;
+        padding: 40px 20px;
+        display: flex;
+        gap: 40px;
+        margin: 20px 0;
+    }
+    .testimonial-slider .testimonial-slider-card .testimonial-slider-card-img{
+        width: 100%;
+    }
+    .testimonial-slider .testimonial-slider-card .testimonial-slider-card-img img{
+        width: 100%;
+    }
+    .testimonial-slider .testimonial-slider-card .testimonial-slider-card-inner p{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 170%;
+        color: #6F6D71;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    .testimonial-slider .testimonial-slider-card .testimonial-slider-card-inner h5{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 130.5%;
+        color: #010101;
+        padding-bottom: 9px;
+    }
+    .testimonial-slider .testimonial-slider-card .testimonial-slider-card-inner span{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #6F6D71;
+        margin: 0;
+        padding: 0;
+    }
+
+    .testimonial-slider .owl-stage-outer {
+        padding-left: 200px; 
+        padding-right: 0 !important;
+    }
+    /* Testimony section end */
+
+
+
+
+/* blog section satrt */
+
+.blog-section{
+    padding-bottom: 300px;
+}
+.blog-section .blog-slider-wapper{
+    margin-top: 100px;
+}
+.blog-section .blog-slider-wapper .blog-card-wapper{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.blog-section .blog-slider-wapper .blog-card-wapper .blog-card-img{
+    border-radius: 20px;
+    overflow: hidden;
+}
+.blog-section .blog-slider-wapper .blog-card-wapper .blog-card-img img{
+    width: 100%;
+}
+.blog-section .blog-slider-wapper .blog-card-wapper .blog-card-inner{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.blog-section .blog-slider-wapper .blog-card-wapper .blog-card-inner h6{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #6F6D71;
+    margin: 0;
+}
+.blog-section .blog-slider-wapper .blog-card-wapper .blog-card-inner h4{
+    margin: 0;
+}
+.blog-section .blog-slider-wapper .blog-card-wapper .blog-card-inner h4 a{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+    color: #010101;
+}
+.blog-section .blog-slider-wapper .blog-card-wapper .blog-card-inner ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    list-style: none;
+}
+.blog-section .blog-slider-wapper .blog-card-wapper .blog-card-inner ul li{
+    display: flex;
+    align-items: center;
+}
+.blog-section .blog-slider-wapper .blog-card-wapper .blog-card-inner ul li span{
+    font-size: 30px;
+    color: #CDCBCF;
+    margin-right: 18px;
+}
+.blog-section .blog-slider-wapper .blog-card-wapper .blog-card-inner ul li a{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 170%;
+    color: #6F6D71;
+}
+
+/* blog section end */
+
+
+/* Partner section start */
+
+    .partner-section{
+        margin-bottom: -140px;
+        position: relative;
+    }
+    .partner-wapper{
+        background: #FEFEFE;
+        box-shadow: 0px 19px 33px rgba(111, 109, 113, 0.13);
+        border-radius: 20px;
+        padding: 50px 40px;
+    }
+    .partner-wapper .partner-inner{
+        display: flex;
+        align-items: center;
+    }
+    .partner-wapper .partner-inner img{
+        width: 100%;
+    }
+
+/* Partner section end */
+
+@media(max-width:1450px){
+/* banner section satrt */
+.banner-section {
+    padding: 220px 0;
+}
+
+/* banner section end */
+/* blog section satrt */
+.blog-section .blog-slider-wapper .blog-card-wapper .blog-card-inner h6 {
+    font-size: 24px;
+    line-height: 30px;
+}
+.blog-section .blog-slider-wapper .blog-card-wapper .blog-card-inner h4 a {
+    font-size: 28px;
+    line-height: 110%;
+}
+
+/* blog section end */
+}
+@media(max-width:1199px) {
+    /* banner section satrt */
+
+    .banner-section {
+        padding: 100px 0 220px 0;
+    }
+
+    /* banner section end */
+
+    /* about us section satrt */
+
+    .about-us-section {
+        padding: 100px 0;
+    }
+    .about-us-section .about-row {
+        margin-top: 50px;
+        display: flex;
+        gap: 30px;
+    }
+    .about-us-section .about-row .about-left-img, .about-us-section .about-row .about-right-text{
+        width: 50%;
+    }
+    .about-us-section .about-row .about-right-text .about-right-text-card {
+        gap: 30px;
+    }
+    .about-us-section .about-row .about-right-text .about-right-text-card .about-right-text-card-inner p {
+        font-size: 20px;
+        line-height: 120%;
+    }
+
+    /* about us section end */
+
+    /* price section start */
+
+    .price-section {
+        padding: 100px 0;
+    }
+    .price-section .price-row {
+        margin-top: 50px;
+    }
+    .price-section .price-row .price-left-wapper .radio-buttons label.custom-radio span.radio-btn .check-and-checked-btn {
+        font-size: 25px;
+    }
+    .price-section .price-row .price-left-wapper .radio-buttons label.custom-radio span.radio-btn .check-and-checked-btn {
+        margin-right: 25px;
+    }
+    .price-right-wapper .choose-plan-btn {
+        margin-top: 50px;
+    }
+    /* price section end */
+    /* Testimony section satrt */
+
+    .testimonial-section {
+        padding: 100px 0;
+    }
+    .testimonial-slider .testimonial-slider-card {
+        padding: 30px 20px;
+        gap: 20px;
+        margin: 10px 0;
+    }
+    .testimonial-slider .owl-stage-outer {
+        padding-left: 100px; 
+        padding-right: 0 !important;
+    }
+    /* Testimony section end */
+    /* blog section satrt */
+    .blog-section {
+        padding-bottom: 100px;
+    }
+    /* blog section end */
+}
+
+@media(max-width:991px) {
+    /* banner section satrt */
+    .banner-section {
+        padding: 100px 0 120px 0;
+    }
+    .banner-section::after {
+        height: 110px;
+        bottom: 0px;
+    }
+    .banner-section .banner-text-wapper {
+        max-width: 100%;
+        gap: 20px;
+    }
+    /* banner section end */
+
+    /* Miles Esther section start */
+    .miles-esther-section {
+        margin-top: 0px;
+        padding: 100px 0 0 0;
+    }
+    .miles-card-wapper {
+        margin-bottom: 30px;
+    }
+    /* Miles Esther section end */
+    /* about section start */
+    .about-us-section .about-row {
+        flex-direction: column;
+    }
+    .about-us-section .about-row .about-left-img, .about-us-section .about-row .about-right-text {
+        width: 100%;
+    }
+    /* about section end */
+
+    /* price section start */
+
+    .price-section .price-row {
+        flex-direction: column;
+    }
+    .price-section .price-row .price-left-wapper, .price-section .price-row .price-right-wapper {
+        width: 100%;
+    }
+
+    /* price section end */
+    /* Testimony section start */
+    .testimonial-slider .owl-stage-outer {
+        padding-left: 0; 
+        padding-right: 0 !important;
+    }
+    .testimonial-slider .testimonial-slider-card {
+        flex-direction: column;
+    }
+    /* Testimony section end */
+    /* Partner section start */
+    .partner-wapper {
+        padding: 40px 20px;
+    }
+    .partner-wapper .partner-inner {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .partner-wapper .partner-inner .partner-card {
+        max-width: 162px;
+    }
+
+    /* Partner section end */
+}
+
+
+@media(max-width:767px) {
+    /* banner section satrt */
+    .banner-section {
+        padding: 50px 0 100px 0;
+    }
+    .banner-section::after {
+        height: 83px;
+        bottom: 0px;
+    }
+    .banner-section .banner-text-wapper h2 {
+        font-size: 50px;
+        line-height: 58px;
+    }
+    .banner-section .banner-text-wapper p {
+        font-size: 20px;
+        line-height: 140%;
+    }
+    .banner-section .banner-text-wapper .banber-lorem-btn a {
+        padding: 8px 60px;
+        font-size: 18px;
+        line-height: 180%;
+    }
+    /* banner section end */
+    /* Miles Esther section start */
+
+    .miles-esther-section {
+        padding: 50px 0 0 0;
+    }
+
+    /* Miles Esther section end */
+
+    /* about section start */
+
+    .about-us-section {
+        padding: 50px 0;
+    }
+    .all-us-title-wapper h5 {
+        font-size: 26px;
+        line-height: 32px;
+        padding-bottom: 15px;
+    }
+    .all-us-title-wapper h4 {
+        font-size: 34px;
+        line-height: 130%;
+        padding-bottom: 20px;
+    }
+    .all-us-title-wapper p {
+        font-size: 20px;
+        line-height: 150%;
+    }
+    .about-us-section .about-row {
+        margin-top: 30px;
+        gap: 20px;
+    }
+
+    /* about section end */
+
+    /* price section satrt */
+
+    .price-section {
+        padding: 50px 0;
+    }
+    .price-section .price-row {
+        margin-top: 30px;
+    }
+    .price-section .price-row .price-left-wapper .radio-buttons label.custom-radio {
+        padding: 20px 20px;
+    }
+    .price-section .price-row .price-left-wapper .radio-buttons label.custom-radio span.radio-btn {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .price-section .price-row .price-left-wapper .radio-buttons label.custom-radio span.radio-btn .plan-name-wapper h5 {
+        font-size: 24px;
+        line-height: 28px;
+        padding-bottom: 12px;
+    }
+
+    .price-right-wapper .price-right-ul {
+        padding: 20px 20px;
+    }
+    .price-right-wapper .price-right-ul ul {
+        gap: 20px;
+    }
+    .price-right-wapper .price-right-ul ul li span {
+        font-size: 25px;
+    }
+    .price-right-wapper .choose-plan-btn {
+        margin-top: 30px;
+    }
+    .price-right-wapper .choose-plan-btn a {
+        padding: 10px 30px;
+        font-size: 20px;
+        line-height: 160%;
+    }
+    /* price section end */
+    /* Testimony section start */
+    .testimonial-section {
+        padding: 50px 0;
+    }
+    .testimonial-slider .owl-stage-outer {
+        padding-left: 0; 
+        padding-right: 0 !important;
+    }
+    .testimonial-slider {
+        margin-top: 50px;
+    }
+    .testimonial-slider .testimonial-slider-card {
+        flex-direction: column;
+    }
+    /* Testimony section end */
+    /* blog section start */
+
+    .blog-section {
+        padding-bottom: 0px;
+    }
+    .blog-section .blog-slider-wapper {
+        margin-top: 30px;
+    }
+    .blog-section .blog-slider-wapper .blog-card-wapper {
+        gap: 20px;
+    }
+    .blog-section .blog-slider-wapper .blog-card-wapper .blog-card-inner h4 a {
+        font-size: 24px;
+        line-height: 100%;
+    }
+    .blog-section .blog-slider-wapper .blog-card-wapper .blog-card-inner h6 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .blog-section .blog-slider-wapper .blog-card-wapper .blog-card-inner ul {
+        gap: 30px;
+    }
+    .blog-section .blog-slider-wapper .blog-card-wapper .blog-card-inner ul li span {
+        font-size: 22px;
+        margin-right: 12px;
+    }
+
+    /* blog section end */
+    /* Partner section start */
+
+    .partner-section {
+        margin-bottom: 0px;
+        padding: 50px 0;
+    }
+    .partner-wapper {
+        padding: 20px 20px;
+    }
+    .partner-wapper .partner-inner {
+        display: grid;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Partner section end */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+	.container.w-1557 { max-width: 1180px; }
+}
+@media (min-width: 1340px) {
+	.container.w-1557 { max-width: 1300px; }
+}
+@media (min-width: 1440px) {
+	.container.w-1557 { max-width: 1400px; }
+}
+@media (min-width: 1540px) {
+	.container.w-1557 { max-width: 1500px; }
+}
+@media (min-width: 1640px) {
+	.container.w-1557 { max-width: 1557px; }
+}
+@media (min-width: 1740px) {
+	.container.w-1557 { max-width: 1730px; }
+}

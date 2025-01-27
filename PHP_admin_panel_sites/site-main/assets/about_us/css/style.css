@@ -1,0 +1,603 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a:hover{
+    text-decoration: none;
+}
+
+
+.all-us-title-wapper{
+    max-width: 787px;
+    width: 100%;
+    margin: 0 auto;
+}
+.all-us-title-wapper h5{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #FF7EB3;
+    padding-bottom: 22px;
+    margin: 0;
+}
+.all-us-title-wapper h4{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+    text-align: center;
+    color: #010101;
+    margin: 0;
+    padding-bottom: 32px;
+}
+.all-us-title-wapper p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 170%;
+    text-align: center;
+    color: #6F6D71;
+    margin: 0;
+    padding: 0;
+}
+
+/* banner section start */
+
+.about-banner-section{
+    padding: 317px 0;
+    background: linear-gradient(288.64deg, rgba(255, 237, 235, 0.8) 32.81%, rgba(255, 245, 235, 0.8) 100%), linear-gradient(270deg, rgba(255, 209, 201, 0.15) 0%, #FFE1BE 72.79%), url(../img/banner.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.about-banner-section::after{
+    content: '';
+    width: 100%;
+    height: 220px;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    background: url(../img/Rectangle\ 75\ \(1\).png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.about-banner-section .banner-text-wapper{
+    max-width: 545px;
+    width: 100%;
+    margin: 0 auto 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.about-banner-section .banner-text-wapper h2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 110px;
+    color: #010101;
+    margin: 0;
+}
+.about-banner-section .banner-text-wapper p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 170%;
+    color: #6F6D71;
+    margin: 0;
+}
+.about-banner-section .banner-text-wapper .banber-lorem-btn{
+    display: flex;
+}
+.about-banner-section .banner-text-wapper .banber-lorem-btn a{
+    padding: 20px 100px;
+    border-radius: 15px;
+    border: 3px solid #F16E88;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 180%;
+    text-align: center;
+    color: #F16E88;
+}
+
+/* banner section end */
+
+/* Service section start */
+
+.about-miles-esther-section{
+    padding: 200px 0;
+}
+.about-miles-esther-section .row{
+    margin-top: 100px;
+}
+.about-miles-esther-section .miles-card-wapper{
+    box-shadow: 0px 19px 33px rgba(111, 109, 113, 0.13);
+    border-radius: 20px;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.about-miles-esther-section .miles-card-wapper.bg-color-FFF5EB{
+    background: #FFF5EB;
+}
+.about-miles-esther-section .miles-card-wapper.bg-color-FFEDEB{
+    background: #FFEDEB;
+}
+.about-miles-esther-section .miles-card-wapper.bg-color-F2F8F3{
+    background: #F2F8F3;
+}
+.about-miles-esther-section .miles-card-wapper .miles-card-img{
+    padding: 17px 20px;   
+    border-radius: 15px;
+    width: 84px;
+    height: 84px;
+}
+.about-miles-esther-section .miles-card-wapper.bg-color-FFF5EB .miles-card-img{
+    background: #F5CA6E;
+}
+.about-miles-esther-section .miles-card-wapper.bg-color-FFEDEB .miles-card-img{
+    background: #F16E88;
+}
+.about-miles-esther-section .miles-card-wapper.bg-color-F2F8F3 .miles-card-img{
+    background: #B1D7B8;
+}
+.about-miles-esther-section .miles-card-wapper .miles-card-inner h6{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #010101;
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+.about-miles-esther-section .miles-card-wapper .miles-card-inner p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 170%;
+    color: #6F6D71;
+    margin: 0;
+}
+/* Service section end */
+
+/* Our Teams section start */
+
+.our-teams-section{
+    background: #fff5eb;
+    padding: 100px 0;
+}
+.our-teams-section .our-teams-row{
+    margin-top: 100px;
+    display:grid;
+    grid-column-gap:30px;
+    grid-row-gap:30px;
+    grid-template-columns:repeat(2,1fr);
+}
+.our-teams-section .our-teams-row .our-teams-card-wapper{
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.our-teams-section .our-teams-row .our-teams-card-wapper .our-teams-card-img{
+    width: 100%;
+}
+.our-teams-section .our-teams-row .our-teams-card-wapper .our-teams-card-img img{
+    width: 100%;
+}
+.our-teams-section .our-teams-row .our-teams-card-wapper .our-teams-card-inner{
+    padding: 60px 50px;
+    background: rgba(254, 254, 254, 0.75);
+    backdrop-filter: blur(6px);
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.our-teams-section .our-teams-row .our-teams-card-wapper .our-teams-card-inner h4{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #010101;
+    margin: 0;
+    padding-bottom: 8px;
+}
+.our-teams-section .our-teams-row .our-teams-card-wapper .our-teams-card-inner span{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 170%;
+    color: #6F6D71;
+}
+.our-teams-section .our-teams-row .our-teams-card-wapper .our-teams-card-inner .our-teams-view-btn{
+    display: flex;
+}
+.our-teams-section .our-teams-row .our-teams-card-wapper .our-teams-card-inner .our-teams-view-btn a{
+    padding: 11px 46px;
+    background: rgba(111, 109, 113, 0.1);
+    border-radius: 62px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #010101;
+}
+/* Our Teams section end */
+
+
+
+
+
+
+
+
+
+/* blog section satrt */
+
+.about-blog-section{
+    padding:200px 0 300px 0;
+}
+.about-blog-section .blog-slider-wapper{
+    margin-top: 100px;
+}
+.about-blog-section .blog-slider-wapper .blog-card-wapper{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.about-blog-section .blog-slider-wapper .blog-card-wapper .blog-card-img{
+    border-radius: 20px;
+    overflow: hidden;
+}
+.about-blog-section .blog-slider-wapper .blog-card-wapper .blog-card-img img{
+    width: 100%;
+}
+.about-blog-section .blog-slider-wapper .blog-card-wapper .blog-card-inner{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.about-blog-section .blog-slider-wapper .blog-card-wapper .blog-card-inner h6{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #6F6D71;
+    margin: 0;
+}
+.about-blog-section .blog-slider-wapper .blog-card-wapper .blog-card-inner h4{
+    margin: 0;
+}
+.about-blog-section .blog-slider-wapper .blog-card-wapper .blog-card-inner h4 a{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+    color: #010101;
+}
+.about-blog-section .blog-slider-wapper .blog-card-wapper .blog-card-inner ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    list-style: none;
+}
+.about-blog-section .blog-slider-wapper .blog-card-wapper .blog-card-inner ul li{
+    display: flex;
+    align-items: center;
+}
+.about-blog-section .blog-slider-wapper .blog-card-wapper .blog-card-inner ul li span{
+    font-size: 30px;
+    color: #CDCBCF;
+    margin-right: 18px;
+}
+.about-blog-section .blog-slider-wapper .blog-card-wapper .blog-card-inner ul li a{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 170%;
+    color: #6F6D71;
+}
+
+/* blog section end */
+
+
+/* Partner section start */
+
+    .partner-section{
+        margin-bottom: -140px;
+        position: relative;
+    }
+    .partner-wapper{
+        background: #FEFEFE;
+        box-shadow: 0px 19px 33px rgba(111, 109, 113, 0.13);
+        border-radius: 20px;
+        padding: 50px 40px;
+    }
+    .partner-wapper .partner-inner{
+        display: flex;
+        align-items: center;
+    }
+    .partner-wapper .partner-inner img{
+        width: 100%;
+    }
+
+/* Partner section end */
+
+@media(max-width:1450px){
+/* banner section satrt */
+.about-banner-section {
+    padding: 220px 0;
+}
+
+/* banner section end */
+/* blog section satrt */
+.about-blog-section .blog-slider-wapper .blog-card-wapper .blog-card-inner h6 {
+    font-size: 24px;
+    line-height: 30px;
+}
+.about-blog-section .blog-slider-wapper .blog-card-wapper .blog-card-inner h4 a {
+    font-size: 28px;
+    line-height: 110%;
+}
+
+/* blog section end */
+}
+@media(max-width:1199px) {
+    /* banner section satrt */
+
+    .about-banner-section {
+        padding: 100px 0 220px 0;
+    }
+
+    /* banner section end */
+
+    /* Service section start */
+
+    .about-miles-esther-section {
+        padding: 100px 0;
+    }
+
+    /* Service section end */
+
+   
+
+    /* blog section satrt */
+   
+    .about-blog-section {
+        padding: 100px 0 150px 0;
+    }
+    /* blog section end */
+}
+
+@media(max-width:991px) {
+    /* banner section satrt */
+    .about-banner-section {
+        padding: 100px 0 120px 0;
+    }
+    .about-banner-section::after {
+        height: 110px;
+        bottom: 0px;
+    }
+    .about-banner-section .banner-text-wapper {
+        max-width: 100%;
+        gap: 20px;
+    }
+    /* banner section end */
+
+    /* Service section start */
+    .about-miles-esther-section .row {
+        margin-top: 50px;
+    }
+    .about-miles-esther-section .miles-card-wapper {
+        margin-bottom: 30px;
+    }
+    /* Service section end */
+
+    /* Our Teams section start */
+    .our-teams-section .our-teams-row {
+        margin-top: 50px;
+    }
+    .our-teams-section .our-teams-row .our-teams-card-wapper .our-teams-card-inner {
+        padding: 20px 15px;
+    }
+    .our-teams-section .our-teams-row .our-teams-card-wapper .our-teams-card-inner span {
+        font-size: 20px;
+        line-height: 150%;
+    }
+    .our-teams-section .our-teams-row .our-teams-card-wapper .our-teams-card-inner h4 {
+        font-size: 24px;
+        line-height: 30px;
+        padding-bottom: 8px;
+    }
+    .our-teams-section .our-teams-row .our-teams-card-wapper .our-teams-card-inner .our-teams-view-btn a {
+        padding: 8px 30px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    /* Our Teams section end */
+   
+   
+    /* Partner section start */
+    .partner-wapper {
+        padding: 40px 20px;
+    }
+    .partner-wapper .partner-inner {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .partner-wapper .partner-inner .partner-card {
+        max-width: 162px;
+    }
+
+    /* Partner section end */
+}
+
+
+@media(max-width:767px) {
+    .all-us-title-wapper h5 {
+        font-size: 26px;
+        line-height: 32px;
+        padding-bottom: 15px;
+    }
+    .all-us-title-wapper h4 {
+        font-size: 34px;
+        line-height: 130%;
+        padding-bottom: 20px;
+    }
+    .all-us-title-wapper p {
+        font-size: 20px;
+        line-height: 150%;
+    }
+    /* banner section satrt */
+    .about-banner-section {
+        padding: 50px 0 100px 0;
+    }
+    .about-banner-section::after {
+        height: 83px;
+        bottom: 0px;
+    }
+    .about-banner-section .banner-text-wapper h2 {
+        font-size: 50px;
+        line-height: 58px;
+    }
+    .about-banner-section .banner-text-wapper p {
+        font-size: 20px;
+        line-height: 140%;
+    }
+    .about-banner-section .banner-text-wapper .banber-lorem-btn a {
+        padding: 8px 60px;
+        font-size: 18px;
+        line-height: 180%;
+    }
+    /* banner section end */
+    /* Service section start */
+
+    .about-miles-esther-section {
+        padding: 50px 0 0 0;
+    }
+.about-miles-esther-section .row {
+    margin-top: 30px;
+}
+    /* Service section end */
+/* Our Teams section start */
+
+.our-teams-section {
+    padding: 50px 0;
+}
+.our-teams-section .our-teams-row {
+    margin-top: 30px;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+
+/* Our Teams section end */
+
+    
+    /* blog section start */
+
+    .about-blog-section {
+        padding: 50px 0 0 0;
+    }
+    .about-blog-section .blog-slider-wapper {
+        margin-top: 30px;
+    }
+    .about-blog-section .blog-slider-wapper .blog-card-wapper {
+        gap: 20px;
+    }
+    .about-blog-section .blog-slider-wapper .blog-card-wapper .blog-card-inner h4 a {
+        font-size: 24px;
+        line-height: 100%;
+    }
+    .about-blog-section .blog-slider-wapper .blog-card-wapper .blog-card-inner h6 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .about-blog-section .blog-slider-wapper .blog-card-wapper .blog-card-inner ul {
+        gap: 30px;
+    }
+    .about-blog-section .blog-slider-wapper .blog-card-wapper .blog-card-inner ul li span {
+        font-size: 22px;
+        margin-right: 12px;
+    }
+
+    /* blog section end */
+    /* Partner section start */
+
+    .partner-section {
+        margin-bottom: 0px;
+        padding: 50px 0;
+    }
+    .partner-wapper {
+        padding: 20px 20px;
+    }
+    .partner-wapper .partner-inner {
+        display: grid;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Partner section end */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+	.container.w-1557 { max-width: 1180px; }
+}
+@media (min-width: 1340px) {
+	.container.w-1557 { max-width: 1300px; }
+}
+@media (min-width: 1440px) {
+	.container.w-1557 { max-width: 1400px; }
+}
+@media (min-width: 1540px) {
+	.container.w-1557 { max-width: 1500px; }
+}
+@media (min-width: 1640px) {
+	.container.w-1557 { max-width: 1557px; }
+}
+@media (min-width: 1740px) {
+	.container.w-1557 { max-width: 1730px; }
+}

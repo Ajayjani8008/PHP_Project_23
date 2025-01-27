@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.all-us-title-wapper{
+    max-width: 787px;
+    width: 100%;
+    margin: 0 auto;
+}
+.all-us-title-wapper h5{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #FF7EB3;
+    padding-bottom: 22px;
+    margin: 0;
+}
+.all-us-title-wapper h4{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+    text-align: center;
+    color: #010101;
+    margin: 0;
+    padding-bottom: 32px;
+}
+.all-us-title-wapper p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 170%;
+    text-align: center;
+    color: #6F6D71;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.our-team-bg-shap{
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.our-team-bg-shap::before {
+    content: '';
+    position: absolute;
+    width: 108%;
+    height: 106%;
+    left: 0;
+    top: 0;
+    background: #FFF5EB;
+    transform: rotate(60deg);
+    z-index: -1;
+}
+
+    /* teams section start */
+
+    .team-section-wapper{
+        padding-top: 200px;
+    }
+
+    .team-section-wapper .team-row-wapper{
+        margin-top: 100px;
+        display:grid;
+        grid-column-gap:30px;
+        grid-row-gap:30px;
+        grid-template-columns:repeat(2,1fr);
+    }
+    .team-section-wapper .team-row-wapper .team-card-wapper{
+        position: relative;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    .team-section-wapper .team-row-wapper .team-card-wapper .team-card-img{
+        width: 100%;
+    }
+    .team-section-wapper .team-row-wapper .team-card-wapper .team-card-img img{
+        width: 100%;
+    }
+    .team-section-wapper .team-row-wapper .team-card-wapper .team-card-inner{
+        padding: 60px 50px;
+        background: rgba(254, 254, 254, 0.75);
+        backdrop-filter: blur(6px);
+        border-radius: 20px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .team-section-wapper .team-row-wapper .team-card-wapper .team-card-inner h4{
+        font-family: 'Loto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+        color: #010101;
+        margin: 0;
+        padding-bottom: 8px;
+    }
+    .team-section-wapper .team-row-wapper .team-card-wapper .team-card-inner span{
+        font-family: 'Loto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 170%;
+        color: #6F6D71;        
+    }
+    .team-section-wapper .team-row-wapper .team-card-wapper .team-card-inner .our-teams-view-btn{
+        display: flex;
+    }
+    .team-section-wapper .team-row-wapper .team-card-wapper .team-card-inner .our-teams-view-btn a{
+        padding: 11px 46px;
+        background: rgba(111, 109, 113, 0.1);
+        border-radius: 62px;
+        font-family: 'Loto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #010101
+    }
+
+
+    /* teams section end */
+
+    /* Testimony section satrt */
+
+    .testimonial-section{
+        padding: 200px 0;
+    }
+    .testimonial-slider{
+        margin-top: 80px;
+    }
+    .testimonial-slider .testimonial-slider-card {
+        background: #FFFFFF;
+        box-shadow: 0px 7px 3px rgba(111, 109, 113, 0.13);
+        border-radius: 20px;
+        padding: 40px 20px;
+        display: flex;
+        gap: 40px;
+        margin: 20px 0;
+    }
+    .testimonial-slider .testimonial-slider-card .testimonial-slider-card-img{
+        width: 100%;
+    }
+    .testimonial-slider .testimonial-slider-card .testimonial-slider-card-img img{
+        width: 100%;
+    }
+    .testimonial-slider .testimonial-slider-card .testimonial-slider-card-inner p{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 170%;
+        color: #6F6D71;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    .testimonial-slider .testimonial-slider-card .testimonial-slider-card-inner h5{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 130.5%;
+        color: #010101;
+        padding-bottom: 9px;
+    }
+    .testimonial-slider .testimonial-slider-card .testimonial-slider-card-inner span{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #6F6D71;
+        margin: 0;
+        padding: 0;
+    }
+
+    .testimonial-slider .owl-stage-outer {
+        padding-left: 200px; 
+        padding-right: 0 !important;
+    }
+    /* Testimony section end */
+
+
+
+
+
+/* Partner section start */
+
+    .partner-section{
+        margin-bottom: -140px;
+        position: relative;
+    }
+    .partner-wapper{
+        background: #FEFEFE;
+        box-shadow: 0px 19px 33px rgba(111, 109, 113, 0.13);
+        border-radius: 20px;
+        padding: 50px 40px;
+    }
+    .partner-wapper .partner-inner{
+        display: flex;
+        align-items: center;
+    }
+    .partner-wapper .partner-inner img{
+        width: 100%;
+    }
+
+/* Partner section end */
+
+@media(max-width:1450px){
+
+}
+@media(max-width:1199px) {
+   /* Our Teams section start */
+   .team-section-wapper {
+    padding-top: 100px;
+}
+   /* Our Teams section end */
+
+
+    /* Testimony section satrt */
+
+    .testimonial-section {
+        padding: 100px 0;
+    }
+    .testimonial-slider .testimonial-slider-card {
+        padding: 30px 20px;
+        gap: 20px;
+        margin: 10px 0;
+    }
+    .testimonial-slider .owl-stage-outer {
+        padding-left: 100px; 
+        padding-right: 0 !important;
+    }
+    /* Testimony section end */
+   
+}
+
+@media(max-width:991px) {
+    
+    
+     /* Our Teams section start */
+     .team-section-wapper .team-row-wapper{
+        margin-top: 50px;
+    }
+    .team-section-wapper .team-row-wapper .team-card-wapper .team-card-inner {
+        padding: 20px 15px;
+    }
+    .team-section-wapper .team-row-wapper .team-card-wapper .team-card-inner span {
+        font-size: 20px;
+        line-height: 150%;
+    }
+    .team-section-wapper .team-row-wapper .team-card-wapper .team-card-inner h4 {
+        font-size: 24px;
+        line-height: 30px;
+        padding-bottom: 8px;
+    }
+    .team-section-wapper .team-row-wapper .team-card-wapper .team-card-inner .our-teams-view-btn a {
+        padding: 8px 30px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    /* Our Teams section end */
+    /* Testimony section start */
+    .testimonial-slider .owl-stage-outer {
+        padding-left: 0; 
+        padding-right: 0 !important;
+    }
+    .testimonial-slider .testimonial-slider-card {
+        flex-direction: column;
+    }
+    /* Testimony section end */
+    /* Partner section start */
+    .partner-wapper {
+        padding: 40px 20px;
+    }
+    .partner-wapper .partner-inner {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .partner-wapper .partner-inner .partner-card {
+        max-width: 162px;
+    }
+
+    /* Partner section end */
+}
+
+
+@media(max-width:767px) {
+
+    .all-us-title-wapper h5 {
+        font-size: 26px;
+        line-height: 32px;
+        padding-bottom: 15px;
+    }
+    .all-us-title-wapper h4 {
+        font-size: 34px;
+        line-height: 130%;
+        padding-bottom: 20px;
+    }
+    .all-us-title-wapper p {
+        font-size: 20px;
+        line-height: 150%;
+    }
+   
+
+
+
+
+/* Our Teams section start */
+.team-section-wapper {
+    padding-top: 50px;
+}
+
+.team-section-wapper .team-row-wapper {
+    margin-top: 30px;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+
+/* Our Teams section end */
+
+
+
+    /* Testimony section start */
+    .testimonial-section {
+        padding: 50px 0;
+    }
+    .testimonial-slider .owl-stage-outer {
+        padding-left: 0; 
+        padding-right: 0 !important;
+    }
+    .testimonial-slider {
+        margin-top: 50px;
+    }
+    .testimonial-slider .testimonial-slider-card {
+        flex-direction: column;
+    }
+    .testimonial-slider .testimonial-slider-card {
+        padding: 15px 15px;
+        gap: 20px;
+        margin: 10px 0;
+    }
+    /* Testimony section end */
+   
+    /* Partner section start */
+
+    .partner-section {
+        margin-bottom: 0px;
+        padding: 50px 0;
+    }
+    .partner-wapper {
+        padding: 20px 20px;
+    }
+    .partner-wapper .partner-inner {
+        display: grid;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Partner section end */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+	.container.w-1557 { max-width: 1180px; }
+}
+@media (min-width: 1340px) {
+	.container.w-1557 { max-width: 1300px; }
+}
+@media (min-width: 1440px) {
+	.container.w-1557 { max-width: 1400px; }
+}
+@media (min-width: 1540px) {
+	.container.w-1557 { max-width: 1500px; }
+}
+@media (min-width: 1640px) {
+	.container.w-1557 { max-width: 1557px; }
+}
+@media (min-width: 1740px) {
+	.container.w-1557 { max-width: 1730px; }
+}

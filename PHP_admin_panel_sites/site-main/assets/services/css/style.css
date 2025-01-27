@@ -1,0 +1,586 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a:hover{
+    text-decoration: none;
+}
+
+
+.all-us-title-wapper{
+    max-width: 787px;
+    width: 100%;
+    margin: 0 auto;
+}
+.all-us-title-wapper h5{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #FF7EB3;
+    padding-bottom: 22px;
+    margin: 0;
+}
+.all-us-title-wapper h4{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+    text-align: center;
+    color: #010101;
+    margin: 0;
+    padding-bottom: 32px;
+}
+.all-us-title-wapper p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 170%;
+    text-align: center;
+    color: #6F6D71;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Service section start */
+
+.about-miles-esther-section{
+    padding: 200px 0;
+}
+.about-miles-esther-section .row{
+    margin-top: 100px;
+}
+.about-miles-esther-section .miles-card-wapper{
+    box-shadow: 0px 19px 33px rgba(111, 109, 113, 0.13);
+    border-radius: 20px;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.about-miles-esther-section .miles-card-wapper.bg-color-FFF5EB{
+    background: #FFF5EB;
+}
+.about-miles-esther-section .miles-card-wapper.bg-color-FFEDEB{
+    background: #FFEDEB;
+}
+.about-miles-esther-section .miles-card-wapper.bg-color-F2F8F3{
+    background: #F2F8F3;
+}
+.about-miles-esther-section .miles-card-wapper .miles-card-img{
+    padding: 17px 20px;   
+    border-radius: 15px;
+    width: 84px;
+    height: 84px;
+}
+.about-miles-esther-section .miles-card-wapper.bg-color-FFF5EB .miles-card-img{
+    background: #F5CA6E;
+}
+.about-miles-esther-section .miles-card-wapper.bg-color-FFEDEB .miles-card-img{
+    background: #F16E88;
+}
+.about-miles-esther-section .miles-card-wapper.bg-color-F2F8F3 .miles-card-img{
+    background: #B1D7B8;
+}
+.about-miles-esther-section .miles-card-wapper .miles-card-inner h6{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #010101;
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+.about-miles-esther-section .miles-card-wapper .miles-card-inner p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 170%;
+    color: #6F6D71;
+    margin: 0;
+}
+/* Service section end */
+
+
+
+/* Price section satrt */
+
+.price-section{
+    padding: 90px 0 155px 0;
+    background: url(../img/Desktop\ -\ 2.png) no-repeat;
+    background-size: cover;
+}
+.price-section .price-row{
+    display: flex;
+    gap: 30px;
+    margin-top: 100px;
+}
+.price-section .price-row .price-left-wapper, .price-section .price-row .price-right-wapper{
+    width: 50%;
+}
+.price-section .price-row .price-left-wapper .radio-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.price-section .price-row .price-left-wapper .radio-buttons label.custom-radio{
+    padding: 30px 30px;
+    background: #FEFEFE;
+    box-shadow: 0px 19px 33px rgba(111, 109, 113, 0.07);
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 0;
+    width: 100%;
+}
+.price-section .price-row .price-left-wapper .radio-buttons label.custom-radio input{
+    display: none;
+}
+.price-section .price-row .price-left-wapper .radio-buttons label.custom-radio span.radio-btn {
+	display: flex;
+	align-items: center;
+}
+.price-section .price-row .price-left-wapper .radio-buttons label.custom-radio span.radio-btn .check-and-checked-btn{
+    margin-right: 50px;
+}
+.price-section .price-row .price-left-wapper .radio-buttons label.custom-radio span.radio-btn .plan-price-wapper{
+    margin: auto 0 auto auto;
+}
+.price-section .price-row .price-left-wapper .radio-buttons label.custom-radio span.radio-btn .check-and-checked-btn{
+    color: #FF7EB3;
+    font-size: 35px;
+}
+.price-section .price-row .price-left-wapper .radio-buttons .tabs-nav-main-inner label.custom-radio span.radio-btn .check-and-checked-btn .check-btn{
+    display: block;
+}
+.price-section .price-row .price-left-wapper .radio-buttons .tabs-nav-main-inner.active label.custom-radio span.radio-btn .check-and-checked-btn .check-btn{
+    display: none;
+}
+.price-section .price-row .price-left-wapper .radio-buttons .tabs-nav-main-inner label.custom-radio span.radio-btn .check-and-checked-btn .checked-btn{
+    display: none;
+}
+.price-section .price-row .price-left-wapper .radio-buttons .tabs-nav-main-inner.active label.custom-radio span.radio-btn .check-and-checked-btn .checked-btn{
+    display: block;
+}
+.price-section .price-row .price-left-wapper .radio-buttons label.custom-radio span.radio-btn .plan-name-wapper h5{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #010101;
+    margin: 0;
+    padding-bottom: 12px;
+}
+.price-section .price-row .price-left-wapper .radio-buttons label.custom-radio span.radio-btn .plan-name-wapper span{
+    background: #FFEDEB;
+    border-radius: 62px;
+    padding: 11px 26px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #F16E88;
+    display: inline-block;
+}
+.price-section .price-row .price-left-wapper .radio-buttons label.custom-radio span.radio-btn .plan-price{
+    display: flex;
+}
+.price-section .price-row .price-left-wapper .radio-buttons label.custom-radio span.radio-btn .plan-price span.dolor-s{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 75px;
+    color: #010101;
+    margin-right: 5px;
+}
+.price-section .price-row .price-left-wapper .radio-buttons label.custom-radio span.radio-btn .plan-price h4{
+    margin: 0;
+    display: inline-block;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 110px;
+    color: #010101;
+    padding: 0;
+}
+.price-section .price-row .price-left-wapper .radio-buttons label.custom-radio span.radio-btn .plan-price h4 span{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.price-right-wapper .price-right-ul{
+    padding: 40px 49px;
+    background: #FEFEFE;
+    border-radius: 30px;
+}
+.price-right-wapper .price-right-ul ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    list-style: none;
+}
+.price-right-wapper .price-right-ul ul li{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 3px solid rgba(235, 233, 237, 0.5);
+    padding-right: 10px;
+}
+.price-right-wapper .price-right-ul ul li p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 170%;
+    color: #010101;
+    margin: 0;
+    padding: 0;
+}
+.price-right-wapper .price-right-ul ul li.text-check p{
+    color: #6F6D71;
+}
+.price-right-wapper .price-right-ul ul li span{
+    color: #F16E88;
+    font-size: 30px;
+}
+.price-right-wapper .price-right-ul ul li.min span{
+    color: #F16E88;
+    opacity: 0.6;
+}
+.price-right-wapper .choose-plan-btn{
+    margin-top: 100px;
+    display: flex;
+}
+.price-right-wapper .choose-plan-btn a{
+    padding: 18px 50px;
+    background: linear-gradient(286.38deg, #FF7EB3 5.19%, #FF758C 93.37%);
+    border-radius: 15px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 180%;
+    color: #FEFEFE;
+    margin: 0 auto;
+}
+
+
+.price-section .price-row .price-left-wapper .radio-buttons ul{
+    display: flex;
+  flex-direction: column;
+  gap: 18px;
+    width: 100%;
+    list-style: none;
+}
+
+.price-content{
+    display: none;
+}
+.price-content.active{
+    display: block;
+}
+
+
+
+/* Price section end */
+
+/* Our Footage section start */
+
+.our-footage-section{
+    padding: 200px 0;
+}
+.our-footage-inner-wapper{
+    margin-top: 100px;
+}
+.our-footage-inner-wapper a{
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 100%;
+}
+.our-footage-inner-wapper a img{
+    width: 100%;
+}
+.our-footage-inner-wapper a .h-overlay-slider{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 96px;
+    color: #FEFEFE;
+}
+
+
+/* Our Footage section end */
+
+
+
+
+/* Partner section start */
+
+    .partner-section{
+        margin-bottom: -140px;
+        position: relative;
+    }
+    .partner-wapper{
+        background: #FEFEFE;
+        box-shadow: 0px 19px 33px rgba(111, 109, 113, 0.13);
+        border-radius: 20px;
+        padding: 50px 40px;
+    }
+    .partner-wapper .partner-inner{
+        display: flex;
+        align-items: center;
+    }
+    .partner-wapper .partner-inner img{
+        width: 100%;
+    }
+
+/* Partner section end */
+
+@media(max-width:1450px){
+
+}
+@media(max-width:1199px) {
+   
+
+    /* Service section start */
+
+    .about-miles-esther-section {
+        padding: 100px 0;
+    }
+
+    /* Service section end */
+     /* price section start */
+
+     .price-section {
+        padding: 100px 0;
+    }
+    .price-section .price-row {
+        margin-top: 50px;
+    }
+    .price-section .price-row .price-left-wapper .radio-buttons label.custom-radio span.radio-btn .check-and-checked-btn {
+        font-size: 25px;
+    }
+    .price-section .price-row .price-left-wapper .radio-buttons label.custom-radio span.radio-btn .check-and-checked-btn {
+        margin-right: 25px;
+    }
+    .price-right-wapper .choose-plan-btn {
+        margin-top: 50px;
+    }
+    /* price section end */
+    /* Our Footage section start */
+
+    .our-footage-section {
+        padding: 100px 0;
+    }
+
+    /* Our Footage section end */
+   
+
+}
+
+@media(max-width:991px) {
+    
+
+    /* Service section start */
+    .about-miles-esther-section .row {
+        margin-top: 50px;
+    }
+    .about-miles-esther-section .miles-card-wapper {
+        margin-bottom: 30px;
+    }
+    /* Service section end */
+     /* price section start */
+
+     .price-section .price-row {
+        flex-direction: column;
+    }
+    .price-section .price-row .price-left-wapper, .price-section .price-row .price-right-wapper {
+        width: 100%;
+    }
+
+    /* price section end */
+    /* Our Footage section start */
+    .our-footage-inner-wapper {
+        margin-top: 50px;
+    }
+
+    /* Our Footage section end */
+    
+   
+    /* Partner section start */
+    .partner-wapper {
+        padding: 40px 20px;
+    }
+    .partner-wapper .partner-inner {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .partner-wapper .partner-inner .partner-card {
+        max-width: 162px;
+    }
+
+    /* Partner section end */
+}
+
+
+@media(max-width:767px) {
+    .all-us-title-wapper h5 {
+        font-size: 26px;
+        line-height: 32px;
+        padding-bottom: 15px;
+    }
+    .all-us-title-wapper h4 {
+        font-size: 34px;
+        line-height: 130%;
+        padding-bottom: 20px;
+    }
+    .all-us-title-wapper p {
+        font-size: 20px;
+        line-height: 150%;
+    }
+    
+    /* Service section start */
+
+    .about-miles-esther-section {
+        padding: 50px 0 0 0;
+    }
+.about-miles-esther-section .row {
+    margin-top: 30px;
+}
+    /* Service section end */
+
+    /* price section satrt */
+
+    .price-section {
+        padding: 50px 0;
+    }
+    .price-section .price-row {
+        margin-top: 30px;
+    }
+    .price-section .price-row .price-left-wapper .radio-buttons label.custom-radio {
+        padding: 20px 20px;
+    }
+    .price-section .price-row .price-left-wapper .radio-buttons label.custom-radio span.radio-btn {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .price-section .price-row .price-left-wapper .radio-buttons label.custom-radio span.radio-btn .plan-name-wapper h5 {
+        font-size: 24px;
+        line-height: 28px;
+        padding-bottom: 12px;
+    }
+
+    .price-right-wapper .price-right-ul {
+        padding: 20px 20px;
+    }
+    .price-right-wapper .price-right-ul ul {
+        gap: 20px;
+    }
+    .price-right-wapper .price-right-ul ul li span {
+        font-size: 25px;
+    }
+    .price-right-wapper .choose-plan-btn {
+        margin-top: 30px;
+    }
+    .price-right-wapper .choose-plan-btn a {
+        padding: 10px 30px;
+        font-size: 20px;
+        line-height: 160%;
+    }
+    /* price section end */
+
+    /* Our Footage section start */
+    .our-footage-section {
+        padding: 50px 0 0 0;
+    }
+    .our-footage-inner-wapper {
+        margin-top: 30px;
+    }
+    .our-footage-inner-wapper a .h-overlay-slider {
+        font-size: 50px;
+    }
+
+    /* Our Footage section end */
+
+    /* Partner section start */
+
+    .partner-section {
+        margin-bottom: 0px;
+        padding: 50px 0;
+    }
+    .partner-wapper {
+        padding: 20px 20px;
+    }
+    .partner-wapper .partner-inner {
+        display: grid;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Partner section end */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+	.container.w-1557 { max-width: 1180px; }
+}
+@media (min-width: 1340px) {
+	.container.w-1557 { max-width: 1300px; }
+}
+@media (min-width: 1440px) {
+	.container.w-1557 { max-width: 1400px; }
+}
+@media (min-width: 1540px) {
+	.container.w-1557 { max-width: 1500px; }
+}
+@media (min-width: 1640px) {
+	.container.w-1557 { max-width: 1557px; }
+}
+@media (min-width: 1740px) {
+	.container.w-1557 { max-width: 1730px; }
+}
